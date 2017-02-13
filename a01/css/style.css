@@ -1,0 +1,122 @@
+body{
+	background-color: #FFF;
+	margin: 0;
+	padding: 0;
+
+}
+h1{
+	color: #000000;
+	font-family:'Ubuntu', sans-serif;
+	font-size: 60px;
+	line-height: 70px;
+	margin:0;
+	position: center;
+	text-align:center;
+	top:100px;
+	bottom:150px;
+	padding-bottom: 50px;
+	padding-top: 100px;
+}
+.header{
+	background-position: center center;
+	background-color: #ffcc00;
+	background-size:cover;
+}
+
+#header-text{
+   margin: 0 auto;
+   position: relative;
+   text-align:center;
+}
+
+#images1{
+	margin-top: 100px;
+    margin-bottom: 50px;
+    margin-right: 250px;
+    margin-left: 0px;
+}
+#images2{
+	margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 250px;
+    margin-left: 0px;
+}
+
+#images3{
+	margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 250px;
+    margin-left: 0px;
+}
+
+#images4{
+	margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 250px;
+    margin-left: 0px;
+}
+
+#images5{
+	margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 250px;
+    margin-left: 0px;
+}
+
+#images6{
+	margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 250px;
+    margin-left: 0px;
+}
+
+h2{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 30px;
+	text-indent: 0em;
+}
+
+ul{
+	margin:0 auto;
+	padding: 0;
+	width: 50%;
+}
+
+li{
+	border-bottom: 5px solid #ffcc00;
+	list-style: none;
+	margin:100px 0px;
+	padding-bottom: 60px;
+}
+p{
+	font-family: helvetica, sans-serif;
+	line-height: 1.25em;
+	font-size: 18px;
+	color: #7F7F7F;
+	letter-spacing: 0.0325em;
+
+}
+a{
+	
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+
+}
+a:link {
+    color:#000000;
+}
+
+a:visited {
+    color: #ffcc00;
+}
+footer { 
+    display: block;
+    float:right;
+    margin: 0 0 10px 10px;
+    padding-left: 20px;
+    padding-bottom: 25px;
+    padding-top: 50px;
+    padding-right: 100px;
+}
+
+
