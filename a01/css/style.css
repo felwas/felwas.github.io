@@ -2,13 +2,13 @@ body{
 	background-color: #FFF;
 	margin: 0;
 	padding: 0;
-
 }
+
 h1{
 	color: #000000;
 	font-family:'Ubuntu', sans-serif;
 	font-size: 60px;
-	line-height: 70px;
+	/*line-height: 70px;*/
 	margin:0;
 	position: center;
 	text-align:center;
@@ -94,20 +94,37 @@ p{
 	font-size: 18px;
 	color: #7F7F7F;
 	letter-spacing: 0.0325em;
-
 }
+
 a{
 	
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 14px;
-
 }
+
 a:link {
     color:#000000;
 }
 
 a:visited {
     color: #ffcc00;
+}
+a.back-to-top {
+	display: block;
+	width: 100px;
+	height: 65px;
+	text-indent: 25px;
+	position: fixed;
+	z-index:999;
+	left: 100px;
+	bottom: 20px;
+	background: #ffcc00;
+	border-radius: 30px;
+
+
+}
+a:hover.back-to-top {
+background-color: #000
 }
 footer { 
     display: block;
