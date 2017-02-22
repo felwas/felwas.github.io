@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+* {
+	/*padding: 0;*/
+	/*margin: 0;*/
+	/*box-sizing: border-box;*/
+} /* to remove default css padding and margin settings*/
+
+body {
+	font-family: Helvetica, sans-serif;
+	background-color: #FFFFFF;
+}
+
+header {
+    background-color: #ffcc00;
+    border: 1px;
+    padding: 20px;
+    text-align: center;
+    margin: 0;
+}
+
+p {
+	font-weight: 300;
+}
+
+nav {
+	background-color: #FFFFFF;
+	border: 1px;
+}
+
+ul {
+	text-align: center;
+	padding: 10px
+}
+
+li{
+	display: inline-block;
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 10px;
+	width: 200px;
+	color:#000;
+}
+
+a:hover { /* pseudo-class */
+	background-color: #000;
+	color: #FFFFFF;
+}
+
+a:active {
+	color: #ffcc00;
+
+}
+
+img {
+	display: inline-block;
+	width: 26%;
+	margin: 30px;
+	padding: 50px;
+	background-color: #FFFFFF;
+	border: 1px;
+}
+
+nav {
+	padding: 1px;
+}
+
+aside {
+	background-color: #FFC675;
+	border: 1px black solid;
+}
+
+article {
+	background-color: #E89C6C;
+	border: 1px black solid;
+}
+
+footer {
+	background-color: #ffcc00;
+	border: 0px;
+	text-align: center;
+	padding: 20px;
+}
+
+#wrapper {
+	width: 960px;
+	margin: 1px auto;
+
+}
+
+#two_columns {
+	background-color: #FFFFFF;
+	border: 1px ;
+	padding: 20px;
+}
+
+#left {
+	background-color: #FFFFFF;
+    border: 1px ;
+    padding: 20px;
+    margin: 10px 20px; /*try changing the values of the margin*/
+    float: right;
+    width: 38%; /* left element’s width will be 30% of the available space */
+}
+
+#right {
+    background-color: #FFFFFF;
+    border: 1px ;
+    padding: 20px;
+    float: right;
+    width: 38%; /*right element’s width will be 60% of the available space*/
+    margin:10px 20px;
+
+}
+
+.clearfix:after { /* once you float elements that are nested inside a parent element it no longer add to the height of that parent element, you should use clearfix to get the two columns*/
+    visibility: visible;
+    display: block;
+    font-size: 12px;
+    content: " ";
+    clear: both;
+    height: 0;
+}
